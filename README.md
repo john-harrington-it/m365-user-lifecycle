@@ -1,5 +1,6 @@
 # M365 User Lifecycle
 
+[![CI](https://github.com/john-harrington-it/m365-user-lifecycle/actions/workflows/ci.yml/badge.svg)](https://github.com/john-harrington-it/m365-user-lifecycle/actions/workflows/ci.yml)
 ![PowerShell 5.1 | 7.x](https://img.shields.io/badge/PowerShell-5.1%20%7C%207.x-5391FE?logo=powershell&logoColor=white)
 ![Microsoft Graph SDK](https://img.shields.io/badge/Microsoft%20Graph-PowerShell%20SDK-0078D4)
 ![Pester 5](https://img.shields.io/badge/tests-Pester%205-2ea44f)
