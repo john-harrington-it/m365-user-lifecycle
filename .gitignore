@@ -1,0 +1,7 @@
+test-results/
+*.log
+AdhReport-*/
+EhcReport-*/
+mul-*.csv
+.DS_Store
+Thumbs.db

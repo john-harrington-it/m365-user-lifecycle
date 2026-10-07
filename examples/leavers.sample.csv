@@ -1,0 +1,3 @@
+UserPrincipalName,DelegateTo,AutoReplyMessage
+jordan.doe@contoso.com,pat.lee@contoso.com,
+casey.nguyen@contoso.com,pat.lee@contoso.com,"Thank you for your email. Casey is no longer with Contoso. For billing questions please contact billing@contoso.com."

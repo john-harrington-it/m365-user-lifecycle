@@ -1,0 +1,39 @@
+PS> Invoke-MulJoiner -Path .\examples\joiners.sample.csv
+
+
+UserPrincipalName        Step              Status Message
+-----------------        ----              ------ -------
+avery.smith@contoso.com  CreateUser        DryRun Create cloud user Avery Smith (avery.smith@contoso.com, usage location US)
+avery.smith@contoso.com  AddToLicenseGroup DryRun Add to group LIC-M365-E3
+avery.smith@contoso.com  AddToGroup        DryRun Add to group SG-Litigation
+avery.smith@contoso.com  AddToGroup        DryRun Add to group DL-All Staff
+avery.smith@contoso.com  SetManager        DryRun Set manager to Pat Lee
+avery.smith@contoso.com  MailboxSettings   DryRun Set mailbox time zone/language (Central Standard Time en-US)
+morgan.reyes@contoso.com CreateUser        DryRun Create cloud user Morgan Reyes (morgan.reyes@contoso.com, usage location US)
+morgan.reyes@contoso.com AddToLicenseGroup DryRun Add to group LIC-M365-E3
+morgan.reyes@contoso.com AddToGroup        DryRun Add to group SG-IT
+morgan.reyes@contoso.com AddToGroup        DryRun Add to group DL-All Staff
+morgan.reyes@contoso.com SetManager        DryRun Set manager to Pat Lee
+morgan.reyes@contoso.com MailboxSettings   DryRun Set mailbox time zone/language (Central Standard Time en-US)
+
+
+PS> Invoke-MulLeaver -Path .\examples\leavers.sample.csv
+
+
+UserPrincipalName        Step            Status Message
+-----------------        ----            ------ -------
+jordan.doe@contoso.com   BlockSignIn     DryRun Block sign-in
+jordan.doe@contoso.com   RevokeSessions  DryRun Revoke refresh tokens and sign-in sessions
+jordan.doe@contoso.com   ConvertToShared DryRun Convert mailbox to shared
+jordan.doe@contoso.com   AutoReply       DryRun Enable internal and external auto-reply
+jordan.doe@contoso.com   MailboxDelegate DryRun Grant pat.lee@contoso.com Full Access to the mailbox
+jordan.doe@contoso.com   OneDriveHandoff DryRun Share OneDrive with pat.lee@contoso.com (edit, sign-in required)
+jordan.doe@contoso.com   RemoveLicenses  DryRun Remove from licensing group 5e6f7a8b-0000-4c1d-9e2f-3a4b5c6d7e8f
+casey.nguyen@contoso.com BlockSignIn     DryRun Block sign-in
+casey.nguyen@contoso.com RevokeSessions  DryRun Revoke refresh tokens and sign-in sessions
+casey.nguyen@contoso.com ConvertToShared DryRun Convert mailbox to shared
+casey.nguyen@contoso.com AutoReply       DryRun Enable internal and external auto-reply
+casey.nguyen@contoso.com MailboxDelegate DryRun Grant pat.lee@contoso.com Full Access to the mailbox
+casey.nguyen@contoso.com OneDriveHandoff DryRun Share OneDrive with pat.lee@contoso.com (edit, sign-in required)
+casey.nguyen@contoso.com RemoveLicenses  DryRun Remove 1 directly assigned license(s)
+

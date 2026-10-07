@@ -1,0 +1,3 @@
+FirstName,LastName,UserPrincipalName,UsageLocation,LicenseGroup,Department,JobTitle,OfficeLocation,Manager,Groups,TimeZone,Locale
+Avery,Smith,avery.smith@contoso.com,US,LIC-M365-E3,Litigation,Paralegal,Baton Rouge,pat.lee@contoso.com,SG-Litigation;DL-All Staff,Central Standard Time,en-US
+Morgan,Reyes,morgan.reyes@contoso.com,US,LIC-M365-E3,IT,Systems Administrator,Baton Rouge,pat.lee@contoso.com,SG-IT;DL-All Staff,Central Standard Time,en-US
